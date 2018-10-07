@@ -1,3 +1,4 @@
-*.pdf
-*.RData
-
+.Rproj.user
+.Rhistory
+.RData
+README.html
