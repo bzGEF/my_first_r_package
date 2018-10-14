@@ -53,11 +53,11 @@ To install the `my.first.r.package` assuming it a private repo you have access t
 ```
 If you for example have an install statement like the one above in a script, DO NOT PUT YOUR PAT here. Never put credentials in a script, since there is a changes that you will share this script either by source control like Git og by som other mean and you will share the secret token as well. 
 
-On Windows, it's a mush better approach to put your PAT in a `R` environment variable. The function `devtools:install_github` assumes the PAT in stored in the R environment variable `GITHUB_PAT` if it's not specified by the argument `auth_token`. To set the environemt variable first locate your `R` home folder. This command give you the path of your home folder:
+It's a much better approach to put your PAT in a `R` environment variable. This way you won't accidendatly push it to a Git repo or share it with someone. The function `devtools:install_github` assumes the PAT is stored in the R environment variable `GITHUB_PAT` if it's not specified by the argument `auth_token`. To set the environemt variable first locate your `R` home folder. This command gives you the path of your home folder:
 ```r
 normalizePath("~/")
 ```
-In the `R` home path make a file named `.Renviron` (if it allready exists just add the folling line). Add the line,
+In the `R` home folder make a file named `.Renviron` (if it allready exists just open it and add the folling line). Add the line:
 ```
 GITHUB_PAT=57c3a26ec451c190309c9197f1a3fa161d2f1cb4
 ```
