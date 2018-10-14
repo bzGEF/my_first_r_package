@@ -1,4 +1,5 @@
 .Rproj.user
+*.Rroj
 .Rhistory
 .RData
 README.html
