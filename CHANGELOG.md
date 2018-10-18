@@ -1,6 +1,6 @@
 # Change log
 
-## [v1.0.0](https://github.com/duffau/my_first_r_package/src/v1.0.0/) (2018-10-18)
+## [v1.0.0](https://github.com/duffau/my_first_r_package/tree/v1.0.0) (2018-10-18)
 [Full Changelog](https://github.com/duffau/my_first_r_package/compare/v1.0.0..initial)
 
 **Changes**
